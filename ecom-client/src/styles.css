@@ -1,0 +1,5 @@
+body { font-family: system-ui, sans-serif; margin: 0; }
+table { border-collapse: collapse; min-width: 480px; }
+th, td { border: 1px solid #ccd; padding: 0.4rem 0.8rem; text-align: left; }
+th { background: #eef2f8; }
+.error { color: #b00020; }

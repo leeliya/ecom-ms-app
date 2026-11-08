@@ -3,9 +3,9 @@ server:
 spring:
   application:
     name: gateway-service
+  config:
+    import: optional:configserver:http://localhost:9999
   cloud:
-    config:
-      enabled: false
     gateway:
       server:
         webflux:

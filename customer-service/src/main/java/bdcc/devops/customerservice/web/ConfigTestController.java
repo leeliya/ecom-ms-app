@@ -21,6 +21,6 @@ public class ConfigTestController {
 
     @GetMapping("/params")
     public Map<String, Object> params() {
-        return Map.of("message", message, "x", params.x(), "y", params.y());
+        return Map.of("message", message, "x", params.getX(), "y", params.getY());
     }
 }

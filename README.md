@@ -54,4 +54,5 @@ Technologies : Java 21, Spring Boot 4.1, Spring Cloud, Spring Data REST, H2, Lom
 | 8 – config server (x=10) | ![config 10](captures/img_9.png) |
 | 8 – `/params` du customer-service | ![params](captures/img_10.png) |
 | 8 – config server après modification (x=70) | ![config 70](captures/img_11.png) |
-| 9 – client Angular | à ajouter |
+| 9 – client Angular, liste des clients | ![angular customers](captures/img_12.png) |
+| 9 – client Angular, détail d'une facture | ![angular bill](captures/img_13.png) |
